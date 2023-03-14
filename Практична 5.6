@@ -1,0 +1,35 @@
+1)public class Main {
+    public static void main(String[] args) {
+        int a = 27;
+        int b = 4;
+        
+        int divisionResult = a / b;
+        int remainder = a % b;
+        
+        System.out.println("Результат ділення: " + divisionResult);
+        System.out.println("Залишок від ділення: " + remainder);
+    }
+}
+
+
+2)public class Main {
+    public static void main(String[] args) {
+        int number = 56;
+        int sum = 0;
+        
+        while (number > 0) {
+            sum += number % 10;
+            number /= 10;
+        }
+        
+        System.out.println("Сума цифр числа " + number + " дорівнює " + sum);
+    }
+}
+
+3)public class Main {
+    public static void main(String[] args) {
+        double num = 3.8;
+        int roundedNum = (int) Math.round(num);
+        System.out.println("Округлене число: " + roundedNum);
+    }
+}
